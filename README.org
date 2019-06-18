@@ -2,6 +2,12 @@
 One possible way of utilizing the exposed state across a C++ interface through a C-binding.
 This repo serves as a compendium example for cuML's C++ developer guidelines related to
 [[https://github.com/rapidsai/cuml/blob/branch-0.8/cpp/DEVELOPER_GUIDE.md#exposing-algo-related-state-across-c-interface][exposing state]].
+** Directory hierarchy
+- Makefile - used to build and run this example
+- node.hpp - the main header from C++-side of things. For simplicity, it only exposes the Tree node structure
+- node.h and node.cpp - header and source files which expose C-API
+- nodetest.c - example showing the usage of C-API
+- README.org - this file
 * Requirements
 1. gcc (>= v5.4.0)
 2. make (>= v4.2.1)
