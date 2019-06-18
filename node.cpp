@@ -2,6 +2,8 @@
 #include "node.h"
 #include <stdio.h>
 
+extern "C" {
+
 void createNodeSp(NodeSp *root) {
   printf("Creating float tree node...\n");
   TreeNodeF *p = new TreeNodeF;
@@ -52,3 +54,5 @@ void loadNodeDp(NodeDp *root) {
 void saveNodeDp(NodeDp root, FILE *fp) {
   printf("Saving tree node...\n");
 }
+
+} // extern "C"
