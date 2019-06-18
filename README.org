@@ -1,7 +1,7 @@
 * Introduction
 One possible way of utilizing the exposed state across a C++ interface through a C-binding.
 This repo serves as a compendium example for cuML's C++ developer guidelines related to
-[exposing state](https://github.com/rapidsai/cuml/blob/branch-0.8/cpp/DEVELOPER_GUIDE.md#exposing-algo-related-state-across-c-interface)
+[[https://github.com/rapidsai/cuml/blob/branch-0.8/cpp/DEVELOPER_GUIDE.md#exposing-algo-related-state-across-c-interface][exposing state]].
 * Requirements
 1. gcc (>= v5.4.0)
 2. make (>= v4.2.1)
